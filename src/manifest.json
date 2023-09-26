@@ -1,0 +1,28 @@
+{
+	"manifest_version": "ext-v1",
+	"name": "CHOCH - Game: 404 Not Found",
+	"version": "1.0.5",
+	"scripts": ["main.js"],
+    "icons": {
+		"128": "icons/choch_-_1024x1024_-_icon.png",
+		"background": "icons/choch_-_1600x900_-_gradient.png",
+		"banner": "icons/choch_-_1070x320_-_library_image.png"
+	},
+	"modules": {
+		"console": {
+			"module_version": "1.0.1"
+		},
+		"runtime": {
+			"module_version": "1.2.1"
+		},
+		"tabs": {
+			"module_version": "1.1.0"
+		},
+		"windows": {
+			"module_version": "1.1.0"
+		},
+		"webviews": {
+			"module_version": "1.0.2"
+		}
+	}
+}
